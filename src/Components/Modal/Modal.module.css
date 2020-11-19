@@ -43,6 +43,7 @@
 .close{
     cursor: pointer;
     font-weight: bold;
+    margin-right: 20px;
 }
 
 .close:hover{
