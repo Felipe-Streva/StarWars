@@ -1,0 +1,122 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://img.freepik.com/fotos-gratis/estrelas-e-galaxia-espaco-ceu-fundo_146539-2211.jpg?size=626&ext=jpg');
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shipImage{
+    width: 100px;
+    height: 150px;
+    margin: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label{
+    color: var(--primary);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input{
+    background-color: black;
+    border: 2px solid var(--primary);
+    border-radius: 12px;
+    height: 25px;
+    font-size: 15px;
+    color: var(--primary);
+    outline: none;
+    max-width: 300px;
+    margin: 20px 0px;
+    padding: 0px 3px;
+
+}
+
+.button{
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 12px;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    outline: none;
+}
+
+.button:hover{
+    background-color: black;
+    color: var(--primary);
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90vw;
+}
+
+.pages{
+    cursor: pointer;
+    color: var(--primary);
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.span{
+    margin: 3px;
+}
+
+.span:hover{
+    color: #999999;
+}
+
+@media(max-width: 470px){
+    .main{
+        margin-top: 200px;
+    }
+
+    .divForm{
+        flex-direction: column;
+    }
+
+    .shipImage{
+        height: 100px;
+        margin: 0;
+    }
+
+    .shipImage2{
+        display: none;
+    }
+
+    .container{
+        margin-top: 40px;
+    }
+
+    .pages{
+        font-size: 10px;
+    }
+}

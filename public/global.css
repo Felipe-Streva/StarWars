@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --primary: #ffe81f;
+    --primary-opacity: #ffe81777;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffe81f;
+}
+  
